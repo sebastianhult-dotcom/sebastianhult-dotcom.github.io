@@ -1,0 +1,41 @@
+:root {
+  --orange-color: rgb(240, 123, 5);
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 10%;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.bar {
+  background-color: var(--orange-color);
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.box {
+  border: 1px;
+  border-color: var(--orange-color);
+  border-style: solid;
+  height: 352px;
+}
+
+.box img {
+  float: left;
+  height: 350px;
+}
+
+.image {
+}
+
+.text {
+}
